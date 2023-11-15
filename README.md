@@ -1,4 +1,4 @@
-# MongoDB Tutorial
+# MongoDB Notes
 
 - What is the meaning of Mongo ?
 
