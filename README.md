@@ -30,26 +30,19 @@
 
     - Follow the steps and run the commands one by one and make sure you have installed "Homebrew" on your MAC
 
-      1. Install XCode
+      1. Install XCode `xcode-select --install`
 
-      > xcode-select --install
+      2. Download the official Homebrew formula for MongoDB `brew tap mongodb/brew`
 
-      2. Download the official Homebrew formula for MongoDB
+      3. To update Homebrew and all existing formulae `brew update`
 
-      > brew tap mongodb/brew
+      4. Run the following command in your macOS Terminal application `brew install mongodb-community@7.0`
 
-      3. To update Homebrew and all existing formulae
+      5. Run or enable MongoDB on your local system `brew services start mongodb-community@7.0`
 
-      > brew update
+      6. Stop all the existing running app `brew services stop mongodb-community@7.0`
 
-      4. Run the following command in your macOS Terminal application
-
-      > brew install mongodb-community@7.0
-
-      5. Run or enable MongoDB on your local system
-
-      > brew services start mongodb-community@7.0
-
-      6. Stop all the existing running app
-
-      > brew services stop mongodb-community@7.0
+- Check existing Database: `show dbs`
+- Used latest DB Database: `use latest_db`
+- Insert document: `db.students.insertOne({ name: "Hello", age: 30 })`
+- Find items: `db.students.find()`
