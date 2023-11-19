@@ -21,6 +21,25 @@
   - **BSON - Binary JSON**, BSON's binary structure encodes type and length information, which allow it to be traversed much more quickly compared to JSON.
     <br><br>
 
+- Advantages of MongoDB:
+
+  - Schema migration is required for MongoDB, is a database without schemas.
+  - Document queries are used because it is a document-oriented language, which is important for allowing dynamic queries.
+  - In comparison to other relational databases, performance optimization is simple.
+  - Due to the way it uses internal memory for data storage, it enables quick access to data.
+  - Using sharding, MongoDB expands horizontally (partitioning data across various servers). Your data is separated and evenly placed across the shards. This helps the readers to easily find their data.
+  - Easier to maintain than conventional databases
+  - Replication of data and workload distributed have been employed to increase data availability and deliver high performance.
+    <br><br>
+
+- Disadvantages of MongoDB:
+
+  - It does not support joins the way a relational database does. But join capability may be manually added to the page with the proper code. But it could cause execution to slow and impact performance.
+  - MongoDB stores the key names of each value pair. Also, data redundancy occurs as a result of joins’ limitations. As a result, memory is seen more often than is required.
+  - 16 MB is the maximum size limit for documents.
+  - Document nesting is not possible for more than 100 levels.
+    <br><br>
+
 - Structural differences between MongoDB and MySql ?
 
   | MySql    | MongoDB    |
@@ -30,6 +49,15 @@
   | Rows     | Documents  |
 
   <br>
+
+- Different between MySql and MongoDB:
+
+  1. **Data Structure:** Relational databases excel at managing structured data with fixed schemas, while MongoDB offers flexibility with its dynamic document model, allowing for easy data evolution.
+  2. **Scalability:** Relational databases are vertically scalable, meaning you can increase server resources for improved performance. MongoDB, on the other hand, is horizontally scalable, enabling you to distribute data across multiple servers and handle large-scale applications.
+  3. **Transactions:** Relational databases have robust support for complex transactions, ensuring data consistency and integrity. MongoDB supports atomic operations on a single document, but complex multi-document transactions are available only in recent versions.
+  4. **Querying:** Relational databases use SQL for querying, which provides powerful relational algebra operations and join capabilities. MongoDB offers a flexible query language with a rich set of operators for working with document structures and embedded arrays.
+  5. **Use Case Fit:** Consider your specific use case and requirements. Relational databases are typically a good choice for applications with structured data and strong relationships, while MongoDB shines when handling semi-structured or rapidly changing data.
+     <br><br>
 
 - MongoDB installation:
 
