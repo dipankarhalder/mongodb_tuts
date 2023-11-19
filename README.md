@@ -2,9 +2,9 @@
 
 - What is MongoDB ?
 
-  - MongoDB is an open-source, document-oriented database built on a horizontal scalable architecture that uses a flexible schema for storing large amounts of data with less relations.
+  - MongoDB is an **open-source**, **document-oriented database** built on a **horizontal scalable architecture** that uses a **flexible schema** for storing large amounts of data with less relations.
 
-- Features:
+- MongoDB details:
 
   - **Open-source**
   - **Document-oriented** database
@@ -20,7 +20,7 @@
   - **BSON - Binary JSON**, BSON's binary structure encodes type and length information, which allow it to be traversed much more quickly compared to JSON.
     <br><br>
 
-- Differences structure between MongoDB and MySql ?
+- Structural differences between MongoDB and MySql ?
 
   | MySql    | MongoDB    |
   | :------- | :--------- |
@@ -30,7 +30,7 @@
 
   <br>
 
-- Installing MongoDB
+- MongoDB installation;
 
   - **MAC**
 
