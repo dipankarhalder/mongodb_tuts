@@ -2,7 +2,7 @@
 
 - What is the meaning of Mongo ?
 
-  The meaning of mongo is HUGE, means It can store a large amount of data efficiently.
+  The meaning of mongo is HUGE / HUMONGOUS, means It can store a large amount of data efficiently.
 
 - What is MongoDB ?
 
@@ -46,3 +46,4 @@
 - Used latest DB Database: `use latest_db`
 - Insert document: `db.students.insertOne({ name: "Hello", age: 30 })`
 - Find items: `db.students.find()`
+- Update the data: `db.students.updateOne({ name: })`
