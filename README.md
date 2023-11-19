@@ -3,6 +3,7 @@
 - What is MongoDB ?
 
   - MongoDB is an **open-source**, **document-oriented database** built on a **horizontal scalable architecture** that uses a **flexible schema** for storing large amounts of data with less relations.
+    <br><br>
 
 - MongoDB details:
 
@@ -30,7 +31,7 @@
 
   <br>
 
-- MongoDB installation;
+- MongoDB installation:
 
   - **MAC**
 
