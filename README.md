@@ -53,6 +53,13 @@
       1. If you started MongoDB as a macOS service - `brew services list`
       2. If you started MongoDB manually as a background process - `ps aux | grep -v grep | grep mongod`
 
+    - for more information on Mac - https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/
+
+    - Installation process for Ubuntu - https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
+
+    - Installation process for other version of Linux - https://www.mongodb.com/docs/manual/administration/install-on-linux/
+      <br><br>
+
 - Check existing Database: `show dbs`
 - Used latest DB Database: `use latest_db`
 - Insert document: `db.students.insertOne({ name: "Hello", age: 30 })`
